@@ -1,21 +1,41 @@
 [buildPlans.afio]
-family = "afio"
+family = "Iosevka afio"
 spacing = "term"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
 [buildPlans.afio.variants.design]
-f = "flat-hook-serifless-crossbar-at-x-height"
-i = "serifed-asymmetric"
-l = "serifed-semi-tailed"
-m = "short-leg-serifless"
-zero = "dotted"
-nine = "open-contour"
-asterisk = "hex-low"
-percent = "dots"
-tittle = "square"
-at = "fourfold-solid-inner-tall"
+capital-i = "short-serifed"
+capital-j = "serifless"
+capital-k = "straight-serifless"
+capital-m = "flat-bottom-serifless"
+capital-w = "straight-flat-top-serifless"
+a = "double-storey-serifless"
+d = "toothed-serifless"
+e = "flat-crossbar"
+f = "flat-hook-serifless"
+g = "single-storey-serifless"
+i = "serifless"
+j = "flat-hook-serifless"
+k = "straight-serifless"
+l = "zshaped"
+r = "compact-serifless"
+t = "flat-hook"
+u = "toothed-serifless"
+w = "straight-flat-top-serifless"
+y = "straight-serifless"
+long-s = "flat-hook-serifless"
+eszet = "longs-s-lig-serifless"
+lower-iota = "flat-tailed"
+lower-lambda = "straight-turn"
+cyrl-ef = "serifless"
+cyrl-capital-ka = "symmetric-connected-serifless"
+cyrl-ka = "symmetric-connected-serifless"
+cyrl-em = "flat-bottom-serifless"
+cyrl-capital-u = "straight-serifless"
+at = "fourfold"
+percent = "rings-continuous-slash"
 
 [buildPlans.afio.slopes.Upright]
 angle = 0
@@ -65,8 +85,8 @@ css   = 700
 # Format: <upright|italic|oblique> = <"normal"|"italic"|"oblique">
 # When this section is absent, all slants would be built.
 
-[buildPlans.afio.slants]
-upright = "normal"
+#[buildPlans.afio.slants]
+#upright = "normal"
 # italic = "italic"
 # oblique = "oblique"
 
